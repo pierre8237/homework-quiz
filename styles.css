@@ -1,0 +1,226 @@
+#page {
+  --hue: var(--hue-neutral);
+  padding: 50px 50px 50px 50px;
+  margin: 50px 50px 50px 50px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(var(--hue), 100%, 20%);
+}
+#body {
+  margin: 50px 50px 50px 50px;
+}
+
+#start-button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+#start-button:hover {
+  opacity: 0.5;
+}
+#submit-quiz-button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+#submit-quiz-button:hover {
+  opacity: 0.5;
+}
+
+#next-question-button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 10px 10px 10px 10;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+#next-question-button:hover {
+  opacity: 0.5;
+}
+#view-button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+#view-button:hover {
+  opacity: 0.5;
+}
+
+#theTarget {
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  box-shadow: 0 0 5px;
+}
+
+#questionContainer {
+  display: flex;
+  border-radius: 5 px;
+  height: 208px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+
+#questionDiv {
+  display: flex;
+  border-radius: 5 px;
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 0px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+
+#row_a {
+  background-color: white;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+  width: 100%;
+  text-align: justify;
+}
+#row_b {
+  background-color: white;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+  width: 100%;
+  text-align: justify;
+}
+
+#row_c {
+  background-color: white;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+  width: 100%;
+  text-align: justify;
+}
+
+#row_d {
+  background-color: white;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  height: 58px;
+  width: 100%;
+  text-align: justify;
+}
+
+#a.btn {
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px;
+  padding: 10px 10px 10px 10px;
+}
+#a.btn:hover {
+  opacity: 0.5;
+}
+
+#b.btn {
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#c.btn {
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#c.btn:hover {
+  opacity: 0.5;
+}
+
+#d.btn {
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+#d.btn:hover {
+  opacity: 0.5;
+}
+
+#player-name {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  margin: 10px 10px 10px 10;
+  border-radius: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px;
+}
+#player-name:hover {
+  opacity: 0.5;
+}
+
+#high-score-header {
+  background: green;
+  color: white;
+}
+
+.list-group-item {
+  color: black;
+}
+
+.list-group-score {
+  color: black;
+}
+
+#resultsPanel {
+  width: 100%;
+}
+.inline {
+  display: inline-block;
+  margin-right: 5px;
+}
+#card_header {
+  background-color: lightgreen;
+}
+.table {
+  height: 500px;
+}
